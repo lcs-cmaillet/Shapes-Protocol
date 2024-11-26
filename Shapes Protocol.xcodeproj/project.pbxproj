@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		85BDA5932CF65835005F2BB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BDA58D2CF65835005F2BB4 /* Preview Assets.xcassets */; };
+		85BDA5942CF65835005F2BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BDA58F2CF65835005F2BB4 /* Assets.xcassets */; };
+		85BDA5952CF65835005F2BB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA5902CF65835005F2BB4 /* ContentView.swift */; };
+		85BDA5962CF65835005F2BB4 /* Shapes_ProtocolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA5912CF65835005F2BB4 /* Shapes_ProtocolApp.swift */; };
+		85BDA59A2CF65879005F2BB4 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA5992CF65879005F2BB4 /* Arrow.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		85BDA57C2CF65822005F2BB4 /* Shapes Protocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shapes Protocol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BDA58D2CF65835005F2BB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85BDA58F2CF65835005F2BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85BDA5902CF65835005F2BB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85BDA5912CF65835005F2BB4 /* Shapes_ProtocolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes_ProtocolApp.swift; sourceTree = "<group>"; };
+		85BDA5992CF65879005F2BB4 /* Arrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		85BDA57E2CF65822005F2BB4 /* Shapes Protocol */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Shapes Protocol";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		85BDA5792CF65822005F2BB4 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		85BDA5732CF65822005F2BB4 = {
 			isa = PBXGroup;
 			children = (
-				85BDA57E2CF65822005F2BB4 /* Shapes Protocol */,
+				85BDA5922CF65835005F2BB4 /* Shapes Protocol */,
 				85BDA57D2CF65822005F2BB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,42 @@
 				85BDA57C2CF65822005F2BB4 /* Shapes Protocol.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		85BDA58E2CF65835005F2BB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85BDA58D2CF65835005F2BB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85BDA5922CF65835005F2BB4 /* Shapes Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				85BDA5912CF65835005F2BB4 /* Shapes_ProtocolApp.swift */,
+				85BDA5982CF65854005F2BB4 /* Views */,
+				85BDA5972CF6584C005F2BB4 /* Shapes */,
+				85BDA58E2CF65835005F2BB4 /* Preview Content */,
+				85BDA58F2CF65835005F2BB4 /* Assets.xcassets */,
+			);
+			path = "Shapes Protocol";
+			sourceTree = "<group>";
+		};
+		85BDA5972CF6584C005F2BB4 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				85BDA5992CF65879005F2BB4 /* Arrow.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		85BDA5982CF65854005F2BB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85BDA5902CF65835005F2BB4 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				85BDA57E2CF65822005F2BB4 /* Shapes Protocol */,
 			);
 			name = "Shapes Protocol";
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BDA5932CF65835005F2BB4 /* Preview Assets.xcassets in Resources */,
+				85BDA5942CF65835005F2BB4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BDA5952CF65835005F2BB4 /* ContentView.swift in Sources */,
+				85BDA5962CF65835005F2BB4 /* Shapes_ProtocolApp.swift in Sources */,
+				85BDA59A2CF65879005F2BB4 /* Arrow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
