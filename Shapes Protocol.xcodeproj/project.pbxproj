@@ -12,6 +12,7 @@
 		85BDA5952CF65835005F2BB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA5902CF65835005F2BB4 /* ContentView.swift */; };
 		85BDA5962CF65835005F2BB4 /* Shapes_ProtocolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA5912CF65835005F2BB4 /* Shapes_ProtocolApp.swift */; };
 		85BDA59A2CF65879005F2BB4 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA5992CF65879005F2BB4 /* Arrow.swift */; };
+		85BDA59C2CF65B2E005F2BB4 /* Ribbon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA59B2CF65B2E005F2BB4 /* Ribbon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		85BDA5902CF65835005F2BB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85BDA5912CF65835005F2BB4 /* Shapes_ProtocolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes_ProtocolApp.swift; sourceTree = "<group>"; };
 		85BDA5992CF65879005F2BB4 /* Arrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
+		85BDA59B2CF65B2E005F2BB4 /* Ribbon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ribbon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				85BDA5992CF65879005F2BB4 /* Arrow.swift */,
+				85BDA59B2CF65B2E005F2BB4 /* Ribbon.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				85BDA5952CF65835005F2BB4 /* ContentView.swift in Sources */,
 				85BDA5962CF65835005F2BB4 /* Shapes_ProtocolApp.swift in Sources */,
 				85BDA59A2CF65879005F2BB4 /* Arrow.swift in Sources */,
+				85BDA59C2CF65B2E005F2BB4 /* Ribbon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
