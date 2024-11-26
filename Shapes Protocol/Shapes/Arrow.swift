@@ -7,9 +7,15 @@
 
 import SwiftUI
 
-struct Arrow: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct Arrow: Shape {
+    func path(in rect: CGRect) -> Path{
+        var path = Path()
+        
+        path.move(to: CGPoint(x: rect.minX, y: rect.maxY * (2/5)))
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY * (3/5)))
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.maxY * (3/5)))
+        
+        return path
     }
 }
 
