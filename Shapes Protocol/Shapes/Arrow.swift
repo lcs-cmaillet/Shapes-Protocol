@@ -14,6 +14,12 @@ struct Arrow: Shape {
         path.move(to: CGPoint(x: rect.minX, y: rect.maxY * (2/5)))
         path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY * (3/5)))
         path.addLine(to: CGPoint(x: rect.midX, y: rect.maxY * (3/5)))
+        path.addLine(to:CGPoint(x: rect.midX, y: rect.maxY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.midY))
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.maxY * (2/5)))
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY * (2/5)))
+        
         
         return path
     }
