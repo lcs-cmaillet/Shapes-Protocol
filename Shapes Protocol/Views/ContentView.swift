@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Ribbon()
-            Ribbon()
+                .frame(height:100)
         }
         .padding()
     }
